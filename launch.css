@@ -78,7 +78,7 @@ body {
 
 /* BACKGROUNDS */
 .scene1{ 
-    background-image: url(image/launchpad.png);
+    background-image: url(launchpad.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,20 +162,20 @@ body {
 }
 
 .earth {
-  background: url("image/earth.png");
+  background: url("earth.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .mars {
-  background: url("image/mars.png");
+  background: url("mars.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .space {
-  background:url(image/space.png);
+  background:url("space.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

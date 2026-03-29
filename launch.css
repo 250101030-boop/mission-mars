@@ -56,6 +56,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-snap-align: center;
+
 
   opacity: 0;
   transition: opacity 0.8s ease;

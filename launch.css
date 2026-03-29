@@ -162,20 +162,20 @@ body {
 }
 
 .earth {
-  background: url("earth.png");
+  background: url("E:\projects\mission mars\earth.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .mars {
-  background: url("mars.png");
+  background: url("E:\projects\mission mars\mars.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .space {
-  background:url("space.png");
+  background:url("E:\projects\mission mars\space.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,12 +201,12 @@ body {
 
 .info-box {
   position: absolute; /* 🔥 IMPORTANT */
-  right: 62%;
+  right: 66%;
   bottom: 0;  /* start hidden */
   /* bottom: 0; */
   transform: translateY(0) translateX(100%);
   font-family: 'Segoe UI', sans-serif;
-  width: 70%;
+  width: 30.5%;
   max-width: 1000px;
   height: 240px;
   padding: 30px;
@@ -256,16 +256,13 @@ body {
 }
 
 /* each step */
-.step {
+.step-i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* position: relative;
-  width: 100%; */
-  /* pointer-events: none; */
   scroll-snap-align: center;
 }
-.step li {
+.step-i li {
   font-size: 14px;
   margin-bottom: 5px;
   color: #9be7ff;
